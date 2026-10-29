@@ -6,7 +6,9 @@ body{
   color:#202620
 }
 
-button,input{font:inherit}
+button,input{
+  font:inherit
+}
 
 button,.filebutton{
   border:0;
