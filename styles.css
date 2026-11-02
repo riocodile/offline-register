@@ -2,7 +2,7 @@
 body{
   margin:0;
   font-family:-apple-system,BlinkMacSystemFont,"Yu Gothic",Meiryo,sans-serif;
-  background:#f5f6f3;
+  background:#dce9de;
   color:#202620
 }
 
@@ -67,7 +67,7 @@ nav button{
 }
 
 .on{
-  background:#f5f6f3!important;
+  background:#dce9de!important;
   color:#244333;
   font-weight:bold
 }
