@@ -89,8 +89,15 @@
         <article>
           <h2>Googleスプレッドシートから商品を更新</h2>
           <p class="muted">ネット接続中に実行してください。取り込むと現在の商品一覧・在庫は選択したイベントの内容に置き換わります。売上・取引履歴は残ります。</p>
-          <label>イベントのシート名<input id="sheetname" placeholder="例：2026文化祭"></label>
-          <button id="sheetSync" type="button">商品データを更新</button>
+          <label>イベント（シート名）
+            <select id="sheetname">
+              <option value="">シート一覧を取得してください</option>
+            </select>
+          </label>
+          <div class="actions">
+            <button id="sheetReload" type="button">シート一覧を再取得</button>
+            <button id="sheetSync" type="button">商品データを更新</button>
+          </div>
           <p id="sheetSyncStatus" class="muted">未更新</p>
         </article>
       </section>
