@@ -294,17 +294,29 @@ dialog form{
   max-width:300px
 }
 
-/* 売上集計画面：対象日入力欄のはみ出し防止 */
+
+/* 売上集計画面：対象日を右寄せしてコンパクトに表示 */
+#reports .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
 #reports .heading label {
-  flex: 1 1 180px;
+  flex: 0 1 auto;
+  width: 150px;
   min-width: 0;
+  margin: 0;
 }
 
 #reports .heading input[type="date"] {
   width: 100%;
   min-width: 0;
   max-width: 100%;
+  padding: 8px;
 }
+
 
 @media(max-width:800px){
   .columns{grid-template-columns:1fr}
