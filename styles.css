@@ -294,6 +294,18 @@ dialog form{
   max-width:300px
 }
 
+/* 売上集計画面：対象日入力欄のはみ出し防止 */
+#reports .heading label {
+  flex: 1 1 180px;
+  min-width: 0;
+}
+
+#reports .heading input[type="date"] {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
 @media(max-width:800px){
   .columns{grid-template-columns:1fr}
   .stats{grid-template-columns:1fr}
