@@ -267,7 +267,8 @@ th{
   align-items:center;
   justify-content:center;
   position:relative;
-  text-align:center
+  text-align:center;
+  padding:11px 13px
 }
 
 .filebutton input{
