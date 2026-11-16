@@ -245,7 +245,7 @@ th{
 
 .dayinput{
   display: flex;
-  align-items: center; /* 上下中央揃え */
+  /* align-items: center; 上下中央揃え */
   gap: 12px;
 }
 
