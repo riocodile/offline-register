@@ -18,7 +18,6 @@ button,.filebutton{
   cursor:pointer;
   background:#f5f6f5;
   color:#244333;
-  margin:12px 0
 }
 
 button:disabled{opacity:.45}
@@ -229,7 +228,8 @@ table{
   border-collapse:collapse;
   width:100%;
   min-width:430px;
-  font-size:.9rem
+  font-size:.9rem;
+  margin-bottom:8px
 }
 
 th,td{
@@ -305,8 +305,11 @@ dialog form{
   max-width:300px
 }
 
+#historycsv{
+  margin-bottom:12px
+}
 
-/* 売上集計画面：対象日を右寄せしてコンパクトに表示 */
+/* 売上集計画面：対象日を右寄せしてコンパクトに表示
 #reports .heading {
   display: flex;
   justify-content: space-between;
@@ -326,7 +329,7 @@ dialog form{
   min-width: 0;
   max-width: 100%;
   padding: 8px 8px 4px 8px;
-}
+}　*/
 
 
 @media(max-width:800px){
