@@ -243,6 +243,12 @@ th{
   white-space:nowrap
 }
 
+.dayinput{
+  display: flex;
+  align-items: center; /* 上下中央揃え */
+  gap: 12px;
+}
+
 .stats{
   display:grid;
   grid-template-columns:repeat(3,1fr);
