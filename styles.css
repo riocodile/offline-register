@@ -175,7 +175,7 @@ select{
 .heading{
   display:flex;
   justify-content:space-between;
-  align-items:start;
+  align-items:center;
   gap:10px;
   flex-wrap:wrap
 }
@@ -197,7 +197,7 @@ select{
 }
 
 .heading3 input {
-    width: 140px
+    width: 160px
 }
 
 .actions{
