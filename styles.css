@@ -180,8 +180,24 @@ select{
   flex-wrap:wrap
 }
 
-.heading h2{
-  margin:0
+.heading3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.heading3 .dayinput {
+    margin: 0;
+}
+
+.heading3 label {
+    margin-left: auto;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+
+.heading3 input {
+    width: 160px;
 }
 
 .actions{
@@ -320,29 +336,6 @@ dialog form{
 #historycsv{
   margin-bottom:12px
 }
-
-/* 売上集計画面：対象日を右寄せしてコンパクトに表示
-#reports .heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-}
-
-#reports .heading label {
-  flex: 0 1 auto;
-  width: 150px;
-  min-width: 0;
-  margin: 0px 20px;
-}
-
-#reports .heading input[type="date"] {
-  width: 100%;
-  min-width: 0;
-  max-width: 100%;
-  padding: 8px 8px 4px 8px;
-}　*/
-
 
 @media(max-width:800px){
   .columns{grid-template-columns:1fr}
