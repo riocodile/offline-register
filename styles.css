@@ -172,6 +172,10 @@ select{
   color:#202620
 }
 
+.inputday{
+  margin:0
+}
+
 .heading{
   display:flex;
   justify-content:space-between;
@@ -184,10 +188,6 @@ select{
   display:flex;
   align-items:center;
   width:100%
-}
-
-.heading3 .dayinput {
-  margin:0
 }
 
 .heading3 label {
@@ -259,22 +259,11 @@ th{
   white-space:nowrap
 }
 
-/* .dayinput{
-  display: flex;
-  align-items: center; 上下中央揃え
-  gap: 12px;
-} */
-
-.heading .dayinput:nth-child(2) {
-  margin-left: auto;
-  align-items: center;
-  gap: 12px
-}
-
 .stats{
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  gap:9px
+  gap:9px;
+  margin-top:12px
 }
 
 .stats div{
