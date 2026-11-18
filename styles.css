@@ -175,29 +175,29 @@ select{
 .heading{
   display:flex;
   justify-content:space-between;
-  align-items:center;
+  align-items:start;
   gap:10px;
   flex-wrap:wrap
 }
 
 .heading3 {
-    display: flex;
-    align-items: center;
-    width: 100%;
+  display:flex;
+  align-items:start;
+  width:100%
 }
 
 .heading3 .dayinput {
-    margin: 0;
+  margin:0
 }
 
 .heading3 label {
-    margin-left: auto;
-    margin-right: 8px;
-    white-space: nowrap;
+  margin-left:auto;
+  margin-right:8px;
+  white-space:nowrap
 }
 
 .heading3 input {
-    width: 160px;
+    width: 128px
 }
 
 .actions{
