@@ -329,7 +329,7 @@ dialog form{
 
 /* お預かり金額・数字ボタン */
 .cash-entry {
-  margin: 14px 0;
+  margin: 0;
 }
 
 .cash-label {
