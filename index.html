@@ -38,22 +38,21 @@
             <input id="search" placeholder="商品名で検索">
             <div id="tiles" class="tiles"></div>
           </article>
+
           <article>
             <h2>今回のお会計</h2>
-            <div id="cart">商品を選択してください。</div>
             <div class="total">
               <span>合計</span>
               <strong id="total">¥0</strong>
             </div>
-            
+            <div id="cart">商品を選択してください。</div>
+          </article>
+
+          <article>
             <div class="cash-entry">
-              <div class="cash-label">お預かり金額</div>
+              <h2>お預かり金額</h2>
               <input id="cash" type="hidden" value="">
-            
-              <div id="cashDisplay" class="cash-display">
-                金額を入力
-              </div>
-            
+              <div id="cashDisplay" class="cash-display">金額を入力</div>
               <div id="cashKeypad" class="cash-keypad">
                 <button type="button" data-key="1">1</button>
                 <button type="button" data-key="2">2</button>
@@ -68,10 +67,8 @@
                 <button type="button" data-key="0">0</button>
                 <button type="button" data-key="backspace">⌫</button>
               </div>
-            
               <button type="button" id="cashClear" class="cash-clear">金額をクリア</button>
             </div>
-
             <div class="total">
               <span>お釣り</span>
               <strong id="change">—</strong>
@@ -81,6 +78,7 @@
               <button id="checkout" disabled>会計を確定</button>
             </div>
           </article>
+
         </div>
       </section>
       
