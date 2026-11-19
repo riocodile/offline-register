@@ -45,7 +45,33 @@
               <span>合計</span>
               <strong id="total">¥0</strong>
             </div>
-            <label>お預かり金額<input id="cash" type="number" min="0" step="1" inputmode="numeric" placeholder="例：1000"></label>
+            
+            <div class="cash-entry">
+              <div class="cash-label">お預かり金額</div>
+              <input id="cash" type="hidden" value="">
+            
+              <div id="cashDisplay" class="cash-display">
+                金額を入力
+              </div>
+            
+              <div id="cashKeypad" class="cash-keypad">
+                <button type="button" data-key="1">1</button>
+                <button type="button" data-key="2">2</button>
+                <button type="button" data-key="3">3</button>
+                <button type="button" data-key="4">4</button>
+                <button type="button" data-key="5">5</button>
+                <button type="button" data-key="6">6</button>
+                <button type="button" data-key="7">7</button>
+                <button type="button" data-key="8">8</button>
+                <button type="button" data-key="9">9</button>
+                <button type="button" data-key="00">00</button>
+                <button type="button" data-key="0">0</button>
+                <button type="button" data-key="backspace">⌫</button>
+              </div>
+            
+              <button type="button" id="cashClear" class="cash-clear">金額をクリア</button>
+            </div>
+
             <div class="total">
               <span>お釣り</span>
               <strong id="change">—</strong>
