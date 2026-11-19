@@ -73,7 +73,7 @@ nav button{
 }
 
 main{
-  max-width:1400px;
+  max-width:100%;
   margin:auto;
   padding:12px
 }
@@ -88,8 +88,8 @@ main{
 
 .columns{
   display:grid;
-  grid-template-columns:1.4fr 1fr;
-  gap:14px;
+  grid-template-columns:1.6fr 1fr 1fr;
+  gap:12px;
   align-items:start
 }
 
@@ -138,8 +138,9 @@ article{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:13px 0;
+  padding:10px 0;
   border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd
   margin-top:9px
 }
 
@@ -372,6 +373,24 @@ dialog form{
   background: #f1eee5;
 }
 
+#sheetSync{
+  background:#355c48;
+  color:white;
+  width:100%;
+  margin-top:4px
+}
+
+#sheetSyncStatus{
+  overflow-wrap:anywhere
+}
+
+#checkout{
+  background:#355c48;
+  color:white;
+  width:100%;
+  margin-top:4px
+}
+
 @media(max-width:800px){
   .columns{grid-template-columns:1fr}
   .stats{grid-template-columns:1fr}
@@ -382,4 +401,3 @@ dialog form{
   nav button{padding:9px 5px;font-size:.9rem}
   main{padding:9px}}
 
-#sheetSync{background:#355c48;color:white;width:100%;margin-top:4px}#sheetSyncStatus{overflow-wrap:anywhere}
