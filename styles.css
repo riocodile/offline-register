@@ -326,6 +326,52 @@ dialog form{
   margin-bottom:12px
 }
 
+/* お預かり金額・数字ボタン */
+.cash-entry {
+  margin: 14px 0;
+}
+
+.cash-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.cash-display {
+  background: #f4f6f3;
+  border: 1px solid #cbd3cb;
+  border-radius: 8px;
+  padding: 13px;
+  min-height: 48px;
+  text-align: right;
+  font-size: 1.35rem;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+
+.cash-keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.cash-keypad button {
+  min-height: 54px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background: #e5ebe5;
+}
+
+.cash-keypad button:active {
+  background: #cbdacb;
+}
+
+.cash-clear {
+  width: 100%;
+  margin-top: 8px;
+  background: #f1eee5;
+}
+
 @media(max-width:800px){
   .columns{grid-template-columns:1fr}
   .stats{grid-template-columns:1fr}
