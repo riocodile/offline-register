@@ -3,7 +3,7 @@
 html,
 body {
   touch-action: manipulation;
-  min-height:100vh
+  min-height:100dvh
 }
 
 body{
