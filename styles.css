@@ -144,7 +144,7 @@ article{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:10px 0;
+  padding:13px 0;
   border-top:1px solid #ddd;
   border-bottom:1px solid #ddd;
   margin-top:9px
@@ -395,6 +395,14 @@ dialog form{
   color:white;
   width:100%;
   margin-top:4px
+}
+
+/* 取引履歴の削除ボタン */
+#historyrows button {
+  min-height: 34px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 
 @media(max-width:800px){
