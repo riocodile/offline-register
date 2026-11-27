@@ -108,8 +108,13 @@ article{
   min-width:0;
 }
 
+.product-title{
+  magine:0;
+  padding:0;
+}
+
 .article-register{
-  height:75vh;
+  height:78vh;
   overflow-y:auto;
 }
 
@@ -123,6 +128,11 @@ article{
   grid-template-columns:repeat(auto-fill,minmax(135px,1fr));
   gap:9px;
   margin-top:12px
+}
+
+#tiles{
+  max-height:70vh;
+  overflow-y: auto;
 }
 
 .tile{
@@ -336,7 +346,8 @@ dialog form{
 }
 
 #search{
-  max-width:300px
+  max-width:300px;
+  display: none;
 }
 
 #historycsv{
